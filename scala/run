@@ -1,0 +1,4 @@
+#!/bin/bash
+
+scalac hole_and_ball.scala
+scala -cp "$PWD/" main.scala "$@"
